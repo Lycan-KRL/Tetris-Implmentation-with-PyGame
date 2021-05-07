@@ -1,0 +1,15 @@
+Arrow keys to move tetromino:
+	- Left
+	- Right
+	- Up rotates the tetromino clockwise
+	- Down accelerates the drop
+
+Misc:
+	- 'p' pauses 
+	- 'q' quits the game
+	- SPACE restarts the game
+
+Notes:
+	- Tetrominos can kick off the left/right/bottom walls
+		* Rotations may poke outside the borders, so don't be surprised by the block's corrective offset
+		* An "Oh No" message will appear when you lose. Just press SPACE to restart the game
